@@ -38,7 +38,7 @@ public abstract class Animal{
         System.out.println("Habitat: " + habitat.getDisplayname());
         System.out.println("Is Wild: " + (iswild ? "Yes" : "No"));
     }
-
+    
     public String getName() {
         return name;
     }
